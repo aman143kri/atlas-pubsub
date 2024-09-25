@@ -1,3 +1,5 @@
+#rws
+
 VERSION := $(shell git describe --dirty=-dirty --always --long --tags)
 
 APP_NAME := atlas.pubsub
